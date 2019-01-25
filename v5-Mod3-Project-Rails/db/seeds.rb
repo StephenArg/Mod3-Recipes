@@ -1,0 +1,25 @@
+User.create(name:"Guest", imageURL:"https://www.espace.cool/wp-content/uploads/2016/02/guest-posting-in-the-SCUBA-industry-for-fun-and-profit.jpg")
+User.create(name:"Bob")
+
+Recipe.create(name:"Sushi", imageURL:"https://1lach6149z9u3oo5y045p0ax-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Types-of-sushi.jpg", user_id: 1)
+Recipe.create(name:"Meal", imageURL:"https://www.thespruceeats.com/thmb/J6L1AOEih11jsD2og-5xo6nazYI=/4288x2848/filters:no_upscale():max_bytes(150000):strip_icc()/kimbap-korean-sushi-rolls-2118795-Hero-5b7dbdd346e0fb00250718b8.jpg", user_id: 2)
+Recipe.create(name:"Fish", imageURL:"https://1lach6149z9u3oo5y045p0ax-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Types-of-sushi.jpg", user_id: 1)
+Recipe.create(name:"Good", imageURL:"https://1lach6149z9u3oo5y045p0ax-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Types-of-sushi.jpg", user_id: 1)
+Recipe.create(name:"Cool", imageURL:"https://1lach6149z9u3oo5y045p0ax-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Types-of-sushi.jpg", user_id: 2)
+Recipe.create(name:"Sushi", imageURL:"https://1lach6149z9u3oo5y045p0ax-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Types-of-sushi.jpg", user_id: 1)
+
+Step.create(imageURL:"https://static01.nyt.com/images/2018/02/21/dining/00RICEGUIDE8/00RICEGUIDE8-threeByTwoMediumAt2X.jpg", howTo:"Add Rice", recipe_id:1)
+Step.create(imageURL:"https://www.hakaimagazine.com/wp-content/uploads/header-fish-formation.jpg", howTo:"Add Fish", recipe_id:1)
+
+Ingredient.create(name: "sticky rice")
+Ingredient.create(name: "fish")
+Ingredient.create(name: "seaweed")
+Ingredient.create(name: "avocado")
+Ingredient.create(name: "soy sauce")
+Ingredient.create(name: "lemons")
+Ingredient.create(name: "bacon")
+Ingredient.create(name: "eggs")
+Ingredient.create(name: "milk")
+
+RecipeIngredient.create(amount:3, units: "scoops", recipe_id: 1, ingredient_id: 1)
+RecipeIngredient.create(amount:1, units: "pound", recipe_id: 1, ingredient_id: 2)

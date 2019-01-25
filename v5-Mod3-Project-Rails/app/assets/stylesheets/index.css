@@ -1,0 +1,51 @@
+#container {
+    width:1279px;
+    margin:auto;
+    margin-top:50px;
+  }
+
+  .recipe-card{
+    float:left;
+    width:393px;
+    height: 555px;
+    background-color: red;
+    color: #dde022;
+    margin:15px;
+    text-align: center;
+    word-wrap: break-word ;
+  }
+
+  .recipe-card > *{
+    text-transform: capitalize;
+  }
+
+.howTo_text{
+      margin: 14px;
+      text-align: left
+  }
+
+    h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+#top-header{
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    
+    }
+
+#recipe-search-form{
+  text-align: center;
+}
+
+#recipe-search-bar{
+  height: 25px;
+  width: 90%;
+  font-size: medium;
+  font-style: italic
+}
